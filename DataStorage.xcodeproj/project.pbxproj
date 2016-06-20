@@ -17,6 +17,9 @@
 		B9DE50661D17938100825AF1 /* ArchiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DE50611D17938100825AF1 /* ArchiveViewController.m */; };
 		B9DE50671D17938100825AF1 /* ArchiveManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DE50631D17938100825AF1 /* ArchiveManager.m */; };
 		B9DE50681D17938100825AF1 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DE50651D17938100825AF1 /* Student.m */; };
+		B9DE506F1D17944600825AF1 /* SqViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DE506A1D17944600825AF1 /* SqViewController.m */; };
+		B9DE50701D17944600825AF1 /* SqManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DE506C1D17944600825AF1 /* SqManager.m */; };
+		B9DE50711D17944600825AF1 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DE506E1D17944600825AF1 /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,12 @@
 		B9DE50631D17938100825AF1 /* ArchiveManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArchiveManager.m; sourceTree = "<group>"; };
 		B9DE50641D17938100825AF1 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
 		B9DE50651D17938100825AF1 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		B9DE50691D17944600825AF1 /* SqViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqViewController.h; sourceTree = "<group>"; };
+		B9DE506A1D17944600825AF1 /* SqViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqViewController.m; sourceTree = "<group>"; };
+		B9DE506B1D17944600825AF1 /* SqManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqManager.h; sourceTree = "<group>"; };
+		B9DE506C1D17944600825AF1 /* SqManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqManager.m; sourceTree = "<group>"; };
+		B9DE506D1D17944600825AF1 /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		B9DE506E1D17944600825AF1 /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +86,12 @@
 				B9DE50631D17938100825AF1 /* ArchiveManager.m */,
 				B9DE50641D17938100825AF1 /* Student.h */,
 				B9DE50651D17938100825AF1 /* Student.m */,
+				B9DE50691D17944600825AF1 /* SqViewController.h */,
+				B9DE506A1D17944600825AF1 /* SqViewController.m */,
+				B9DE506B1D17944600825AF1 /* SqManager.h */,
+				B9DE506C1D17944600825AF1 /* SqManager.m */,
+				B9DE506D1D17944600825AF1 /* Car.h */,
+				B9DE506E1D17944600825AF1 /* Car.m */,
 				B9DE504A1D17923800825AF1 /* AppDelegate.h */,
 				B9DE504B1D17923800825AF1 /* AppDelegate.m */,
 				B9DE504D1D17923800825AF1 /* ViewController.h */,
@@ -176,6 +191,7 @@
 				B9DE50491D17923800825AF1 /* main.m in Sources */,
 				B9DE50661D17938100825AF1 /* ArchiveViewController.m in Sources */,
 				B9DE50681D17938100825AF1 /* Student.m in Sources */,
+				B9DE50701D17944600825AF1 /* SqManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

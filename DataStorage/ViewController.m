@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "ArchiveViewController.h"
+#import "SqViewController.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>{
 
@@ -57,7 +59,28 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    
+    switch (indexPath.row) {
+        case 0:
+        {
+            
+            ArchiveViewController *archiveVC =[[ArchiveViewController alloc]init];
+            [self.navigationController pushViewController:archiveVC animated:YES];
+            
+        }
+            break;
+            
+        case 1:
+        {
+            
+            SqViewController *sqVC =[[SqViewController alloc]init];
+            [self.navigationController pushViewController:sqVC animated:YES];
+        }
+            break;
+            
+        default:
+            break;
+    }
+
 }
 
 - (void)didReceiveMemoryWarning {
