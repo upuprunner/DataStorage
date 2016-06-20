@@ -168,6 +168,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9DE50711D17944600825AF1 /* Car.m in Sources */,
+				B9DE506F1D17944600825AF1 /* SqViewController.m in Sources */,
 				B9DE504F1D17923800825AF1 /* ViewController.m in Sources */,
 				B9DE504C1D17923800825AF1 /* AppDelegate.m in Sources */,
 				B9DE50671D17938100825AF1 /* ArchiveManager.m in Sources */,
@@ -320,6 +322,7 @@
 				B9DE505D1D17923800825AF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
