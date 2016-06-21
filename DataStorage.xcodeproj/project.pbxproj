@@ -25,6 +25,10 @@
 		B9DE50801D1926E200825AF1 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DE50781D1926E200825AF1 /* FMDatabasePool.m */; };
 		B9DE50811D1926E200825AF1 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DE507A1D1926E200825AF1 /* FMDatabaseQueue.m */; };
 		B9DE50821D1926E200825AF1 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DE507D1D1926E200825AF1 /* FMResultSet.m */; };
+		B9DE50851D19314500825AF1 /* FmdbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DE50841D19314500825AF1 /* FmdbViewController.m */; };
+		B9DE50881D19362500825AF1 /* PeopleDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DE50871D19362500825AF1 /* PeopleDataBase.m */; };
+		B9DE508B1D19364300825AF1 /* PeopleOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DE508A1D19364300825AF1 /* PeopleOperation.m */; };
+		B9DE508E1D19365C00825AF1 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = B9DE508D1D19365C00825AF1 /* People.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +66,14 @@
 		B9DE507B1D1926E200825AF1 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
 		B9DE507C1D1926E200825AF1 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
 		B9DE507D1D1926E200825AF1 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		B9DE50831D19314500825AF1 /* FmdbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FmdbViewController.h; sourceTree = "<group>"; };
+		B9DE50841D19314500825AF1 /* FmdbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FmdbViewController.m; sourceTree = "<group>"; };
+		B9DE50861D19362500825AF1 /* PeopleDataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleDataBase.h; sourceTree = "<group>"; };
+		B9DE50871D19362500825AF1 /* PeopleDataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleDataBase.m; sourceTree = "<group>"; };
+		B9DE50891D19364300825AF1 /* PeopleOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleOperation.h; sourceTree = "<group>"; };
+		B9DE508A1D19364300825AF1 /* PeopleOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleOperation.m; sourceTree = "<group>"; };
+		B9DE508C1D19365C00825AF1 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		B9DE508D1D19365C00825AF1 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +130,14 @@
 				B9DE50551D17923800825AF1 /* LaunchScreen.storyboard */,
 				B9DE50581D17923800825AF1 /* Info.plist */,
 				B9DE50471D17923800825AF1 /* Supporting Files */,
+				B9DE50831D19314500825AF1 /* FmdbViewController.h */,
+				B9DE50841D19314500825AF1 /* FmdbViewController.m */,
+				B9DE50861D19362500825AF1 /* PeopleDataBase.h */,
+				B9DE50871D19362500825AF1 /* PeopleDataBase.m */,
+				B9DE50891D19364300825AF1 /* PeopleOperation.h */,
+				B9DE508A1D19364300825AF1 /* PeopleOperation.m */,
+				B9DE508C1D19365C00825AF1 /* People.h */,
+				B9DE508D1D19365C00825AF1 /* People.m */,
 			);
 			path = DataStorage;
 			sourceTree = "<group>";
@@ -220,13 +240,17 @@
 			files = (
 				B9DE50711D17944600825AF1 /* Car.m in Sources */,
 				B9DE50801D1926E200825AF1 /* FMDatabasePool.m in Sources */,
+				B9DE50851D19314500825AF1 /* FmdbViewController.m in Sources */,
 				B9DE50821D1926E200825AF1 /* FMResultSet.m in Sources */,
 				B9DE506F1D17944600825AF1 /* SqViewController.m in Sources */,
+				B9DE50881D19362500825AF1 /* PeopleDataBase.m in Sources */,
 				B9DE504F1D17923800825AF1 /* ViewController.m in Sources */,
+				B9DE508B1D19364300825AF1 /* PeopleOperation.m in Sources */,
 				B9DE50811D1926E200825AF1 /* FMDatabaseQueue.m in Sources */,
 				B9DE507E1D1926E200825AF1 /* FMDatabase.m in Sources */,
 				B9DE504C1D17923800825AF1 /* AppDelegate.m in Sources */,
 				B9DE50671D17938100825AF1 /* ArchiveManager.m in Sources */,
+				B9DE508E1D19365C00825AF1 /* People.m in Sources */,
 				B9DE50491D17923800825AF1 /* main.m in Sources */,
 				B9DE507F1D1926E200825AF1 /* FMDatabaseAdditions.m in Sources */,
 				B9DE50661D17938100825AF1 /* ArchiveViewController.m in Sources */,

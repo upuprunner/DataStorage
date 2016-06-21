@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "ArchiveViewController.h"
 #import "SqViewController.h"
+#import "FmdbViewController.h"
 
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate>{
 
@@ -26,7 +27,7 @@
     
     self.title =@"数据存储";
     
-    _titleArray =[[NSMutableArray alloc]initWithObjects:@"对象序列化",@"Sqlite3", nil];
+    _titleArray =[[NSMutableArray alloc]initWithObjects:@"对象序列化",@"Sqlite3",@"FMDB", nil];
     
     _tableView =[[UITableView alloc]initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) style:UITableViewStyleGrouped];
     _tableView.dataSource =self;
@@ -74,6 +75,14 @@
             
             SqViewController *sqVC =[[SqViewController alloc]init];
             [self.navigationController pushViewController:sqVC animated:YES];
+        }
+            break;
+            
+        case 2:
+        {
+            FmdbViewController *fmdbVC =[[FmdbViewController alloc]init];
+            [self.navigationController pushViewController:fmdbVC animated:YES];
+        
         }
             break;
             
